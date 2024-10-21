@@ -10,7 +10,7 @@ export function AccordeonItem({title,content}){
     <p>{title}</p>
     <div className={style.arrow}>
         {
-            isActive ? '-' : '+'
+            isActive ? <img src="./o.png" alt="" /> : <img src="./z.png" alt="" />
         }
     </div>
 </div>
